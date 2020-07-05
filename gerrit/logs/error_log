@@ -1,0 +1,860 @@
+[2020-07-05T04:38:50.681+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T04:38:51.833+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T04:38:51.834+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T04:38:51.842+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T04:38:51.843+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T04:38:51.870+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T04:38:54.022+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @13762ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T04:38:54.336+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T04:38:54.353+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T04:38:55.671+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T04:38:55.782+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T04:38:55.967+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T04:38:55.972+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T04:38:56.132+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T04:38:56.132+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T04:38:56.135+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2020-07-05T04:38:56.370+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@77262e71{/,null,AVAILABLE}
+[2020-07-05T04:38:56.428+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T04:38:56.430+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @16178ms
+[2020-07-05T04:38:56.453+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T04:40:24.057+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T04:40:24.290+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T04:40:24.305+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T04:40:24.320+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@77262e71{/,null,UNAVAILABLE}
+[2020-07-05T04:40:24.386+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T04:40:40.817+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T04:40:41.849+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T04:40:41.850+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T04:40:41.857+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T04:40:41.858+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T04:40:41.887+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T04:40:43.829+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @13598ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T04:40:44.105+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T04:40:44.125+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T04:40:45.466+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T04:40:45.551+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T04:40:45.675+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T04:40:45.694+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T04:40:45.861+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T04:40:45.861+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T04:40:45.878+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T04:40:46.181+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@33de9d85{/,null,AVAILABLE}
+[2020-07-05T04:40:46.264+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T04:40:46.275+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @16045ms
+[2020-07-05T04:40:46.278+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T05:03:20.212+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T05:03:20.426+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:03:20.427+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T05:03:20.430+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@33de9d85{/,null,UNAVAILABLE}
+[2020-07-05T05:03:20.469+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T05:03:52.410+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T05:03:53.465+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T05:03:53.467+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T05:03:53.470+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T05:03:53.472+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T05:03:53.506+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T05:03:55.417+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @12824ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T05:03:55.685+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T05:03:55.699+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T05:03:57.078+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T05:03:57.219+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T05:03:57.404+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T05:03:57.443+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T05:03:57.639+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T05:03:57.644+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T05:03:57.653+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T05:03:58.018+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@33de9d85{/,null,AVAILABLE}
+[2020-07-05T05:03:58.065+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:03:58.072+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @15481ms
+[2020-07-05T05:03:58.085+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T05:04:24.365+0000] [HTTP PUT /accounts/self/emails/dhimasbagusprayoga%40gmail.com (admin from 127.0.0.1)] WARN  com.google.gerrit.server.restapi.account.CreateEmail : skipping email validation in developer mode
+[2020-07-05T05:07:34.263+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T05:07:34.327+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:07:34.338+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T05:07:34.425+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@33de9d85{/,null,UNAVAILABLE}
+[2020-07-05T05:07:34.603+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T05:08:23.600+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T05:08:24.665+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T05:08:24.666+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T05:08:24.669+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T05:08:24.670+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T05:08:24.708+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T05:08:26.964+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @14058ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T05:08:27.252+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T05:08:27.264+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T05:08:28.537+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T05:08:28.631+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T05:08:28.751+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T05:08:28.796+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T05:08:28.905+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T05:08:28.906+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T05:08:28.908+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2020-07-05T05:08:29.290+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@33de9d85{/,null,AVAILABLE}
+[2020-07-05T05:08:29.407+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:08:29.423+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @16509ms
+[2020-07-05T05:08:29.426+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T05:08:36.822+0000] [HTTP PUT /accounts/self/emails/dhimasbagusprayoga%40gmail.com (admin from 127.0.0.1)] WARN  com.google.gerrit.server.restapi.account.CreateEmail : skipping email validation in developer mode
+[2020-07-05T05:13:28.754+0000] [PluginScanner] WARN  com.google.gerrit.server.plugins.PluginLoader : Cannot load plugin github-plugin
+com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) Error injecting constructor, java.lang.NullPointerException: HTTP Header for GitHub user must be provided
+  at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.<init>(Unknown Source)
+  at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.class(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig
+    for the 2nd parameter of com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider.<init>(Unknown Source)
+  at com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider.class(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider
+  while locating com.googlesource.gerrit.plugins.github.oauth.UserScopedProvider<com.googlesource.gerrit.plugins.github.oauth.GitHubLogin>
+    for the 1st parameter of com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader.<init>(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader
+  at com.google.gerrit.server.cache.CacheModule.bindCacheLoader(CacheModule.java:101) (via modules: com.googlesource.gerrit.plugins.github.GuiceModule -> com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$1)
+  while locating com.google.common.cache.CacheLoader<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+  at com.google.gerrit.server.cache.CacheModule.bindCache(CacheModule.java:188) (via modules: com.googlesource.gerrit.plugins.github.GuiceModule -> com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$1)
+  while locating com.google.common.cache.Cache<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+Caused by: java.lang.NullPointerException: HTTP Header for GitHub user must be provided
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:897)
+	at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.<init>(GitHubOAuthConfig.java:81)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:126)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1094)
+	at com.google.inject.spi.ProviderLookup$1.get(ProviderLookup.java:114)
+	at com.google.gerrit.server.cache.CacheProvider.loader(CacheProvider.java:162)
+	at com.google.gerrit.server.cache.PersistentCacheProvider.get(PersistentCacheProvider.java:142)
+	at com.google.gerrit.server.cache.PersistentCacheProvider.get(PersistentCacheProvider.java:31)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:59)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:184)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:111)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:246)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:251)
+	at com.google.gerrit.server.plugins.ServerPlugin.startPlugin(ServerPlugin.java:205)
+	at com.google.gerrit.server.plugins.ServerPlugin.start(ServerPlugin.java:175)
+	at com.google.gerrit.server.plugins.PluginLoader.runPlugin(PluginLoader.java:512)
+	at com.google.gerrit.server.plugins.PluginLoader.rescan(PluginLoader.java:426)
+	at com.google.gerrit.server.plugins.PluginScannerThread.run(PluginScannerThread.java:42)
+
+2) Error injecting constructor, java.lang.NullPointerException: HTTP Header for GitHub user must be provided
+  at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.<init>(Unknown Source)
+  at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.class(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig
+    for the 2nd parameter of com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider.<init>(Unknown Source)
+  at com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider.class(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider
+  while locating com.googlesource.gerrit.plugins.github.oauth.UserScopedProvider<com.googlesource.gerrit.plugins.github.oauth.GitHubLogin>
+    for the 1st parameter of com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader.<init>(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader
+  at com.google.gerrit.server.cache.CacheModule.bindCacheLoader(CacheModule.java:101) (via modules: com.googlesource.gerrit.plugins.github.GuiceModule -> com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$1)
+  while locating com.google.common.cache.CacheLoader<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+  at com.google.gerrit.server.cache.CacheModule.bindCache(CacheModule.java:188) (via modules: com.googlesource.gerrit.plugins.github.GuiceModule -> com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$1)
+  while locating com.google.common.cache.Cache<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+  while locating com.google.common.cache.Cache<?, ?> annotated with @com.google.gerrit.extensions.annotations.Export("groups")
+Caused by: java.lang.NullPointerException: HTTP Header for GitHub user must be provided
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:897)
+	at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.<init>(GitHubOAuthConfig.java:81)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:126)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1094)
+	at com.google.inject.spi.ProviderLookup$1.get(ProviderLookup.java:114)
+	at com.google.gerrit.server.cache.CacheProvider.loader(CacheProvider.java:162)
+	at com.google.gerrit.server.cache.PersistentCacheProvider.get(PersistentCacheProvider.java:142)
+	at com.google.gerrit.server.cache.PersistentCacheProvider.get(PersistentCacheProvider.java:31)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:59)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:184)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:111)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:246)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:251)
+	at com.google.gerrit.server.plugins.ServerPlugin.startPlugin(ServerPlugin.java:205)
+	at com.google.gerrit.server.plugins.ServerPlugin.start(ServerPlugin.java:175)
+	at com.google.gerrit.server.plugins.PluginLoader.runPlugin(PluginLoader.java:512)
+	at com.google.gerrit.server.plugins.PluginLoader.rescan(PluginLoader.java:426)
+	at com.google.gerrit.server.plugins.PluginScannerThread.run(PluginScannerThread.java:42)
+
+3) Error injecting constructor, java.lang.NullPointerException: HTTP Header for GitHub user must be provided
+  at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.<init>(Unknown Source)
+  at com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig.class(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.oauth.GitHubOAuthConfig
+    for the 2nd parameter of com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider.<init>(Unknown Source)
+  at com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider.class(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.oauth.IdentifiedUserGitHubLoginProvider
+  while locating com.googlesource.gerrit.plugins.github.oauth.UserScopedProvider<com.googlesource.gerrit.plugins.github.oauth.GitHubLogin>
+    for the 1st parameter of com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader.<init>(Unknown Source)
+  while locating com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader
+  at com.google.gerrit.server.cache.CacheModule.bindCacheLoader(CacheModule.java:101) (via modules: com.googlesource.gerrit.plugins.github.GuiceModule -> com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$1)
+  while locating com.google.common.cache.CacheLoader<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+  at com.google.gerrit.server.cache.CacheModule.bindCache(CacheModule.java:188) (via modules: com.googlesource.gerrit.plugins.github.GuiceModule -> com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$1)
+  while locating com.google.common.cache.Cache<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+  while locating com.google.common.cache.LoadingCache<java.lang.String, com.googlesource.gerrit.plugins.github.groups.OrganizationStructure> annotated with @com.google.inject.name.Named(value="groups")
+Caused by: java.lang.NullPointerException (same stack trace as error #2)
+3 errors
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:554)
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:188)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:111)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:246)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:251)
+	at com.google.gerrit.server.plugins.ServerPlugin.startPlugin(ServerPlugin.java:205)
+	at com.google.gerrit.server.plugins.ServerPlugin.start(ServerPlugin.java:175)
+	at com.google.gerrit.server.plugins.PluginLoader.runPlugin(PluginLoader.java:512)
+	at com.google.gerrit.server.plugins.PluginLoader.rescan(PluginLoader.java:426)
+	at com.google.gerrit.server.plugins.PluginScannerThread.run(PluginScannerThread.java:42)
+[2020-07-05T05:16:10.790+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T05:16:10.887+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@4a9f0360{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:16:10.900+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T05:16:10.935+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@33de9d85{/,null,UNAVAILABLE}
+[2020-07-05T05:16:10.999+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T05:19:51.100+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T05:19:52.006+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T05:19:52.022+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T05:19:52.024+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T05:19:52.025+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T05:19:52.061+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T05:19:54.070+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @13348ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T05:19:54.387+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T05:19:54.398+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T05:19:55.657+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Removing stale plugin file: plugin_github-plugin_200705_0513_5996523051001021342.jar
+[2020-07-05T05:19:55.730+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T05:19:56.313+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T05:19:56.322+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T05:19:56.393+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T05:19:56.405+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T05:19:56.565+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T05:19:56.565+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T05:19:56.568+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T05:19:57.058+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@e98004e{/,null,AVAILABLE}
+[2020-07-05T05:19:57.105+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:19:57.107+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @16387ms
+[2020-07-05T05:19:57.111+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T05:20:20.770+0000] [HTTP-70] WARN  org.eclipse.jetty.server.HttpChannel : handleException /oauth java.io.IOException: Invalid authentication state: expected '' but was 'gznNjEc9Y8q7jrgZSmLUJgNkEVA=,/login/%2Fq%2Fstatus%3Aopen%2B-is%3Awip'
+[2020-07-05T05:20:20.792+0000] [HTTP-70] ERROR com.google.gerrit.pgm.http.jetty.HiddenErrorHandler : Error in GET /oauth?code=09731dc0514abe9d36b9&state=gznNjEc9Y8q7jrgZSmLUJgNkEVA%3D%2C%2Flogin%2F%252Fq%252Fstatus%253Aopen%252B-is%253Awip
+java.io.IOException: Invalid authentication state: expected '' but was 'gznNjEc9Y8q7jrgZSmLUJgNkEVA=,/login/%2Fq%2Fstatus%3Aopen%2B-is%3Awip'
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthProtocol.loginPhase2(OAuthProtocol.java:333)
+	at com.googlesource.gerrit.plugins.github.oauth.GitHubLogin.login(GitHubLogin.java:102)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter.login(OAuthWebFilter.java:123)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter.doFilter(OAuthWebFilter.java:84)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthFilter.doFilter(OAuthFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.RequestLogHandler.handle(RequestLogHandler.java:54)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-07-05T05:20:23.517+0000] [HTTP-72] WARN  org.eclipse.jetty.server.HttpChannel : handleException /oauth java.io.IOException: Invalid authentication state: expected '' but was 'gznNjEc9Y8q7jrgZSmLUJgNkEVA=,/login/%2Fq%2Fstatus%3Aopen%2B-is%3Awip'
+[2020-07-05T05:20:23.524+0000] [HTTP-72] ERROR com.google.gerrit.pgm.http.jetty.HiddenErrorHandler : Error in GET /oauth?code=09731dc0514abe9d36b9&state=gznNjEc9Y8q7jrgZSmLUJgNkEVA%3D%2C%2Flogin%2F%252Fq%252Fstatus%253Aopen%252B-is%253Awip
+java.io.IOException: Invalid authentication state: expected '' but was 'gznNjEc9Y8q7jrgZSmLUJgNkEVA=,/login/%2Fq%2Fstatus%3Aopen%2B-is%3Awip'
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthProtocol.loginPhase2(OAuthProtocol.java:333)
+	at com.googlesource.gerrit.plugins.github.oauth.GitHubLogin.login(GitHubLogin.java:102)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter.login(OAuthWebFilter.java:123)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter.doFilter(OAuthWebFilter.java:84)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthFilter.doFilter(OAuthFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.RequestLogHandler.handle(RequestLogHandler.java:54)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-07-05T05:26:20.578+0000] [HTTP PUT /accounts/self/password.http (Kry9toN from 127.0.0.1)] ERROR com.google.gerrit.httpd.restapi.RestApiServlet : Error in PUT /accounts/self/password.http: NullPointerException
+java.lang.NullPointerException: Null email
+	at com.google.gerrit.mail.AutoValue_Address.<init>(AutoValue_Address.java:18)
+	at com.google.gerrit.mail.Address.create(Address.java:61)
+	at com.google.gerrit.mail.Address.create(Address.java:57)
+	at com.google.gerrit.server.mail.send.HttpPasswordUpdateSender.init(HttpPasswordUpdateSender.java:45)
+	at com.google.gerrit.server.mail.send.OutgoingEmail.send(OutgoingEmail.java:110)
+	at com.google.gerrit.server.restapi.account.PutHttpPassword.apply(PutHttpPassword.java:143)
+	at com.google.gerrit.server.restapi.account.PutHttpPassword.apply(PutHttpPassword.java:118)
+	at com.google.gerrit.server.restapi.account.PutHttpPassword.apply(PutHttpPassword.java:60)
+	at com.google.gerrit.httpd.restapi.RestApiServlet.lambda$invokeRestModifyViewWithRetry$7(RestApiServlet.java:816)
+	at com.github.rholder.retry.AttemptTimeLimiters$NoAttemptTimeLimit.call(AttemptTimeLimiters.java:78)
+	at com.github.rholder.retry.Retryer.call(Retryer.java:160)
+	at com.google.gerrit.server.update.RetryHelper.executeWithTimeoutCount(RetryHelper.java:561)
+	at com.google.gerrit.server.update.RetryHelper.execute(RetryHelper.java:504)
+	at com.google.gerrit.server.update.RetryableAction.call(RetryableAction.java:172)
+	at com.google.gerrit.httpd.restapi.RestApiServlet.invokeRestEndpointWithRetry(RestApiServlet.java:891)
+	at com.google.gerrit.httpd.restapi.RestApiServlet.invokeRestModifyViewWithRetry(RestApiServlet.java:811)
+	at com.google.gerrit.httpd.restapi.RestApiServlet.service(RestApiServlet.java:517)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at com.google.inject.servlet.ServletDefinition.doServiceImpl(ServletDefinition.java:290)
+	at com.google.inject.servlet.ServletDefinition.doService(ServletDefinition.java:280)
+	at com.google.inject.servlet.ServletDefinition.service(ServletDefinition.java:184)
+	at com.google.inject.servlet.ManagedServletPipeline.service(ManagedServletPipeline.java:89)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:85)
+	at com.google.gerrit.httpd.raw.StaticModule$PolyGerritFilter.doFilter(StaticModule.java:386)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.GetUserFilter.doFilter(GetUserFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RunAsFilter.doFilter(RunAsFilter.java:120)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.SetThreadNameFilter.doFilter(SetThreadNameFilter.java:62)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.AllRequestFilter$FilterProxy$1.doFilter(AllRequestFilter.java:139)
+	at com.google.gerrit.httpd.AllowRenderInFrameFilter.doFilter(AllowRenderInFrameFilter.java:56)
+	at com.google.gerrit.httpd.AllRequestFilter$FilterProxy$1.doFilter(AllRequestFilter.java:135)
+	at com.google.gerrit.httpd.AllRequestFilter$FilterProxy.doFilter(AllRequestFilter.java:141)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RequestCleanupFilter.doFilter(RequestCleanupFilter.java:60)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RequestMetricsFilter.doFilter(RequestMetricsFilter.java:57)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RequestContextFilter.doFilter(RequestContextFilter.java:64)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:121)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:133)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at com.googlesource.gerrit.plugins.github.oauth.OAuthFilter.doFilter(OAuthFilter.java:66)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.RequestLogHandler.handle(RequestLogHandler.java:54)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-07-05T05:32:53.472+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T05:32:53.553+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:32:53.558+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T05:32:53.567+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T05:32:53.567+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T05:32:53.568+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@e98004e{/,null,UNAVAILABLE}
+[2020-07-05T05:32:53.622+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T05:33:57.305+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T05:33:58.398+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T05:33:58.399+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T05:33:58.401+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T05:33:58.402+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T05:33:58.427+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T05:34:00.621+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @13654ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T05:34:01.048+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T05:34:01.058+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T05:34:02.491+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T05:34:03.106+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T05:34:03.118+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T05:34:03.223+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T05:34:03.242+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T05:34:03.379+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T05:34:03.379+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T05:34:03.383+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2020-07-05T05:34:03.861+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@3c20abd6{/,null,AVAILABLE}
+[2020-07-05T05:34:03.916+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:34:03.917+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @16957ms
+[2020-07-05T05:34:03.920+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T05:34:34.977+0000] [HTTP GET /settings/ (admin from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.github.group.GitHubGroupsCache$OrganisationLoader : Cannot login to GitHub on behalf of 'admin'
+[2020-07-05T05:35:51.310+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T05:35:51.390+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:35:51.467+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T05:35:51.479+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T05:35:51.479+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T05:35:51.481+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@3c20abd6{/,null,UNAVAILABLE}
+[2020-07-05T05:35:51.516+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T05:36:41.651+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T05:36:42.794+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T05:36:42.795+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T05:36:42.798+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T05:36:42.799+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T05:36:42.828+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T05:36:44.676+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @13100ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T05:36:45.031+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T05:36:45.042+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T05:36:46.563+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T05:36:47.489+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T05:36:47.509+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T05:36:47.639+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T05:36:47.660+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T05:36:47.771+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T05:36:47.776+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T05:36:47.780+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T05:36:48.416+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@368e7d3a{/,null,AVAILABLE}
+[2020-07-05T05:36:48.471+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T05:36:48.473+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @16903ms
+[2020-07-05T05:36:48.490+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T06:18:47.740+0000] [PluginScanner] WARN  com.google.gerrit.server.plugins.PluginLoader : Cannot load plugin delete-project
+java.lang.NoClassDefFoundError: com/google/gwtorm/server/OrmException
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2357)
+	at com.google.inject.spi.InjectionPoint.forConstructorOf(InjectionPoint.java:243)
+	at com.google.inject.internal.ConstructorBindingImpl.create(ConstructorBindingImpl.java:115)
+	at com.google.inject.internal.InjectorImpl.createUninitializedBinding(InjectorImpl.java:717)
+	at com.google.inject.internal.UntargettedBindingProcessor$1.visit(UntargettedBindingProcessor.java:54)
+	at com.google.inject.internal.UntargettedBindingProcessor$1.visit(UntargettedBindingProcessor.java:36)
+	at com.google.inject.internal.UntargettedBindingImpl.acceptTargetVisitor(UntargettedBindingImpl.java:49)
+	at com.google.inject.internal.UntargettedBindingProcessor.visit(UntargettedBindingProcessor.java:35)
+	at com.google.inject.internal.UntargettedBindingProcessor.visit(UntargettedBindingProcessor.java:27)
+	at com.google.inject.internal.BindingImpl.acceptVisitor(BindingImpl.java:99)
+	at com.google.inject.internal.AbstractProcessor.process(AbstractProcessor.java:54)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:186)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:105)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:246)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:251)
+	at com.google.gerrit.server.plugins.ServerPlugin.startPlugin(ServerPlugin.java:205)
+	at com.google.gerrit.server.plugins.ServerPlugin.start(ServerPlugin.java:175)
+	at com.google.gerrit.server.plugins.PluginLoader.runPlugin(PluginLoader.java:512)
+	at com.google.gerrit.server.plugins.PluginLoader.rescan(PluginLoader.java:426)
+	at com.google.gerrit.server.plugins.PluginScannerThread.run(PluginScannerThread.java:42)
+Caused by: java.lang.ClassNotFoundException: com.google.gwtorm.server.OrmException
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 22 more
+[2020-07-05T06:18:54.301+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T06:18:54.375+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:18:54.379+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T06:18:54.393+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T06:18:54.393+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T06:18:54.397+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@368e7d3a{/,null,UNAVAILABLE}
+[2020-07-05T06:18:54.472+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T06:19:11.876+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T06:19:13.019+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T06:19:13.020+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T06:19:13.023+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T06:19:13.024+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T06:19:13.057+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T06:19:14.892+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @14058ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T06:19:15.208+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T06:19:15.224+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T06:19:16.552+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Removing stale plugin file: plugin_delete-project_200705_0618_11488988535883677110.jar
+[2020-07-05T06:19:16.552+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T06:19:16.788+0000] [main] WARN  com.google.gerrit.server.plugins.PluginLoader : Cannot load plugin delete-project
+java.lang.NoClassDefFoundError: com/google/gwtorm/server/OrmException
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2357)
+	at com.google.inject.spi.InjectionPoint.forConstructorOf(InjectionPoint.java:243)
+	at com.google.inject.internal.ConstructorBindingImpl.create(ConstructorBindingImpl.java:115)
+	at com.google.inject.internal.InjectorImpl.createUninitializedBinding(InjectorImpl.java:717)
+	at com.google.inject.internal.UntargettedBindingProcessor$1.visit(UntargettedBindingProcessor.java:54)
+	at com.google.inject.internal.UntargettedBindingProcessor$1.visit(UntargettedBindingProcessor.java:36)
+	at com.google.inject.internal.UntargettedBindingImpl.acceptTargetVisitor(UntargettedBindingImpl.java:49)
+	at com.google.inject.internal.UntargettedBindingProcessor.visit(UntargettedBindingProcessor.java:35)
+	at com.google.inject.internal.UntargettedBindingProcessor.visit(UntargettedBindingProcessor.java:27)
+	at com.google.inject.internal.BindingImpl.acceptVisitor(BindingImpl.java:99)
+	at com.google.inject.internal.AbstractProcessor.process(AbstractProcessor.java:54)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:186)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:105)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:246)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:251)
+	at com.google.gerrit.server.plugins.ServerPlugin.startPlugin(ServerPlugin.java:205)
+	at com.google.gerrit.server.plugins.ServerPlugin.start(ServerPlugin.java:175)
+	at com.google.gerrit.server.plugins.PluginLoader.runPlugin(PluginLoader.java:512)
+	at com.google.gerrit.server.plugins.PluginLoader.rescan(PluginLoader.java:426)
+	at com.google.gerrit.server.plugins.PluginLoader.start(PluginLoader.java:331)
+	at com.google.gerrit.lifecycle.LifecycleManager.start(LifecycleManager.java:95)
+	at com.google.gerrit.pgm.Daemon.start(Daemon.java:362)
+	at com.google.gerrit.pgm.Daemon.run(Daemon.java:268)
+	at com.google.gerrit.pgm.util.AbstractProgram.main(AbstractProgram.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.google.gerrit.launcher.GerritLauncher.invokeProgram(GerritLauncher.java:224)
+	at com.google.gerrit.launcher.GerritLauncher.mainImpl(GerritLauncher.java:120)
+	at com.google.gerrit.launcher.GerritLauncher.main(GerritLauncher.java:65)
+	at Main.main(Main.java:28)
+Caused by: java.lang.ClassNotFoundException: com.google.gwtorm.server.OrmException
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 34 more
+[2020-07-05T06:19:17.283+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T06:19:17.315+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T06:19:17.466+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T06:19:17.471+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T06:19:17.608+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T06:19:17.608+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T06:19:17.611+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2020-07-05T06:19:18.013+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@480fb706{/,null,AVAILABLE}
+[2020-07-05T06:19:18.048+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:19:18.050+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @17218ms
+[2020-07-05T06:19:18.052+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T06:30:13.672+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T06:30:13.903+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:30:13.904+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T06:30:13.907+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T06:30:13.907+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T06:30:13.909+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@480fb706{/,null,UNAVAILABLE}
+[2020-07-05T06:30:14.035+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T06:30:31.916+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T06:30:33.075+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T06:30:33.083+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T06:30:33.086+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T06:30:33.088+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T06:30:33.115+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T06:30:35.292+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @14898ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T06:30:35.674+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T06:30:35.764+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T06:30:37.141+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Removing stale plugin file: plugin_delete-project_200705_0619_14433259975746052171.jar
+[2020-07-05T06:30:37.142+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T06:30:37.382+0000] [main] WARN  com.google.gerrit.server.plugins.PluginLoader : Cannot load plugin delete-project
+java.lang.NoClassDefFoundError: com/google/gwtorm/server/OrmException
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2357)
+	at com.google.inject.spi.InjectionPoint.forConstructorOf(InjectionPoint.java:243)
+	at com.google.inject.internal.ConstructorBindingImpl.create(ConstructorBindingImpl.java:115)
+	at com.google.inject.internal.InjectorImpl.createUninitializedBinding(InjectorImpl.java:717)
+	at com.google.inject.internal.UntargettedBindingProcessor$1.visit(UntargettedBindingProcessor.java:54)
+	at com.google.inject.internal.UntargettedBindingProcessor$1.visit(UntargettedBindingProcessor.java:36)
+	at com.google.inject.internal.UntargettedBindingImpl.acceptTargetVisitor(UntargettedBindingImpl.java:49)
+	at com.google.inject.internal.UntargettedBindingProcessor.visit(UntargettedBindingProcessor.java:35)
+	at com.google.inject.internal.UntargettedBindingProcessor.visit(UntargettedBindingProcessor.java:27)
+	at com.google.inject.internal.BindingImpl.acceptVisitor(BindingImpl.java:99)
+	at com.google.inject.internal.AbstractProcessor.process(AbstractProcessor.java:54)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:186)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:105)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:246)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:251)
+	at com.google.gerrit.server.plugins.ServerPlugin.startPlugin(ServerPlugin.java:205)
+	at com.google.gerrit.server.plugins.ServerPlugin.start(ServerPlugin.java:175)
+	at com.google.gerrit.server.plugins.PluginLoader.runPlugin(PluginLoader.java:512)
+	at com.google.gerrit.server.plugins.PluginLoader.rescan(PluginLoader.java:426)
+	at com.google.gerrit.server.plugins.PluginLoader.start(PluginLoader.java:331)
+	at com.google.gerrit.lifecycle.LifecycleManager.start(LifecycleManager.java:95)
+	at com.google.gerrit.pgm.Daemon.start(Daemon.java:362)
+	at com.google.gerrit.pgm.Daemon.run(Daemon.java:268)
+	at com.google.gerrit.pgm.util.AbstractProgram.main(AbstractProgram.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.google.gerrit.launcher.GerritLauncher.invokeProgram(GerritLauncher.java:224)
+	at com.google.gerrit.launcher.GerritLauncher.mainImpl(GerritLauncher.java:120)
+	at com.google.gerrit.launcher.GerritLauncher.main(GerritLauncher.java:65)
+	at Main.main(Main.java:28)
+Caused by: java.lang.ClassNotFoundException: com.google.gwtorm.server.OrmException
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 34 more
+[2020-07-05T06:30:37.814+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T06:30:37.845+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T06:30:37.966+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T06:30:37.986+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T06:30:38.114+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T06:30:38.115+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T06:30:38.121+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T06:30:38.556+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@480fb706{/,null,AVAILABLE}
+[2020-07-05T06:30:38.624+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:30:38.626+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @18235ms
+[2020-07-05T06:30:38.630+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T06:38:18.009+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T06:38:18.213+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:38:18.219+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T06:38:18.221+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T06:38:18.221+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T06:38:18.223+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@480fb706{/,null,UNAVAILABLE}
+[2020-07-05T06:38:18.279+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T06:39:40.973+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T06:39:42.117+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T06:39:42.118+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T06:39:42.125+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T06:39:42.126+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T06:39:42.168+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T06:39:44.293+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @14151ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T06:39:44.597+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T06:39:44.695+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T06:39:45.862+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Removing stale plugin file: plugin_delete-project_200705_0630_18236759882124274593.jar
+[2020-07-05T06:39:45.863+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T06:39:46.120+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin codemirror-editor, version v3.2.2
+[2020-07-05T06:39:46.229+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin commit-message-length-validator, version v3.2.2
+[2020-07-05T06:39:46.478+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin delete-project, version v3.2.2
+[2020-07-05T06:39:46.590+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin download-commands, version v3.2.2
+[2020-07-05T06:39:47.034+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T06:39:47.079+0000] [main] INFO  com.google.gerrit.server.config.PluginConfigFactory : No /home/gerrit/gerrit/etc/gitiles.config; assuming defaults
+[2020-07-05T06:39:47.124+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin gitiles, version v3.2.2
+[2020-07-05T06:39:47.214+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin hooks, version v3.2.2
+[2020-07-05T06:39:47.302+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin plugin-manager, version v3.2.2
+[2020-07-05T06:39:47.303+0000] [plugin-manager-preloader] INFO  com.googlesource.gerrit.plugins.manager.OnStartStop : Start-up: pre-loading list of plugins from registry
+[2020-07-05T06:39:47.463+0000] [WorkQueue-2] INFO  com.googlesource.gerrit.plugins.deleteproject.fs.RepositoryCleanupTask : Cleaning up expired git repositories...
+[2020-07-05T06:39:47.559+0000] [WorkQueue-2] INFO  com.googlesource.gerrit.plugins.deleteproject.fs.RepositoryCleanupTask : Cleaning up expired git repositories... Done
+[2020-07-05T06:39:47.768+0000] [main] WARN  com.googlesource.gerrit.plugins.replication.DestinationConfigParser : Replication config does not exist or it's empty; not replicating
+[2020-07-05T06:39:47.808+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin replication, version v3.2.2
+[2020-07-05T06:39:47.900+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin reviewnotes, version v3.2.2
+[2020-07-05T06:39:48.102+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin singleusergroup, version v3.2.2
+[2020-07-05T06:39:48.292+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin webhooks, version v3.2.2
+[2020-07-05T06:39:48.311+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T06:39:48.413+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T06:39:48.424+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T06:39:48.702+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T06:39:48.702+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T06:39:48.705+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2020-07-05T06:39:49.281+0000] [main] INFO  com.googlesource.gerrit.plugins.gitiles.HttpModule : No /home/gerrit/gerrit/etc/gitiles.config; assuming defaults
+[2020-07-05T06:39:50.634+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@6c8b6782{/,null,AVAILABLE}
+[2020-07-05T06:39:50.679+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:39:50.680+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @20544ms
+[2020-07-05T06:39:50.682+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T06:40:46.235+0000] [plugin-manager-preloader] INFO  com.googlesource.gerrit.plugins.manager.OnStartStop : 65 plugins successfully pre-loaded
+[2020-07-05T06:40:51.403+0000] [HTTP PUT /accounts/self/preferences (Kry9toN from 127.0.0.1)] INFO  com.googlesource.gerrit.plugins.hooks.HookFactory : hooks.path: /home/gerrit/gerrit/hooks
+[2020-07-05T06:40:51.404+0000] [HTTP PUT /accounts/self/preferences (Kry9toN from 127.0.0.1)] INFO  com.googlesource.gerrit.plugins.hooks.HookFactory : hooks.refUpdatedHook resolved to /home/gerrit/gerrit/hooks/ref-updated
+[2020-07-05T06:44:44.161+0000] [HTTP-87] WARN  com.google.gerrit.httpd.ProjectBasicAuthFilter : Authentication failed for kry9ton: account inactive or not provisioned in Gerrit
+[2020-07-05T06:44:59.957+0000] [ReceiveCommits-1-for-HTTP POST /Test/git-receive-pack (Kry9toN from 127.0.0.1)] INFO  com.googlesource.gerrit.plugins.hooks.HookFactory : hooks.refUpdateHook resolved to /home/gerrit/gerrit/hooks/ref-update [CONTEXT RECEIVE_ID="Test-1593931499948-dc52940a" project="Test" ]
+[2020-07-05T06:45:00.009+0000] [ReceiveCommits-1-for-HTTP POST /Test/git-receive-pack (Kry9toN from 127.0.0.1)] INFO  com.googlesource.gerrit.plugins.hooks.HookFactory : hooks.commitReceivedHook resolved to /home/gerrit/gerrit/hooks/commit-received [CONTEXT RECEIVE_ID="Test-1593931499948-dc52940a" project="Test" ]
+[2020-07-05T06:49:35.079+0000] [HTTP PUT /a/plugins/github.jar (Kry9toN from 127.0.0.1)] WARN  com.google.gerrit.server.plugins.PluginLoader : Plugin provides its own name: <github>, use it instead of the input name: <github.jar>
+[2020-07-05T06:49:35.244+0000] [HTTP PUT /a/plugins/github.jar (Kry9toN from 127.0.0.1)] INFO  com.google.gerrit.server.plugins.PluginLoader : Installed plugin github
+[2020-07-05T06:50:00.672+0000] [HTTP PUT /a/plugins/admin-console.jar (Kry9toN from 127.0.0.1)] WARN  com.google.gerrit.server.plugins.PluginLoader : Plugin provides its own name: <admin-console>, use it instead of the input name: <admin-console.jar>
+[2020-07-05T06:50:00.803+0000] [HTTP PUT /a/plugins/admin-console.jar (Kry9toN from 127.0.0.1)] INFO  com.google.gerrit.server.plugins.PluginLoader : Installed plugin admin-console
+[2020-07-05T06:50:16.426+0000] [HTTP PUT /a/plugins/avatars-external.jar (Kry9toN from 127.0.0.1)] WARN  com.google.gerrit.server.plugins.PluginLoader : Plugin provides its own name: <avatars-external>, use it instead of the input name: <avatars-external.jar>
+[2020-07-05T06:50:16.494+0000] [HTTP PUT /a/plugins/avatars-external.jar (Kry9toN from 127.0.0.1)] INFO  com.google.gerrit.server.plugins.PluginLoader : Installed plugin avatars-external
+[2020-07-05T06:50:42.959+0000] [HTTP PUT /a/plugins/account.jar (Kry9toN from 127.0.0.1)] WARN  com.google.gerrit.server.plugins.PluginLoader : Plugin provides its own name: <account>, use it instead of the input name: <account.jar>
+[2020-07-05T06:50:43.062+0000] [HTTP PUT /a/plugins/account.jar (Kry9toN from 127.0.0.1)] INFO  com.google.gerrit.server.plugins.PluginLoader : Installed plugin account
+[2020-07-05T06:50:48.008+0000] [HTTP GET / (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:50:48.474+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Reloading plugin account
+[2020-07-05T06:50:48.537+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Unloading plugin account, version 06a381eb43
+[2020-07-05T06:50:48.538+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Reloaded plugin account, version 06a381eb43
+[2020-07-05T06:50:48.539+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Reloading plugin admin-console
+[2020-07-05T06:50:48.576+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Unloading plugin admin-console, version 9b545189f1
+[2020-07-05T06:50:48.577+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Reloaded plugin admin-console, version 9b545189f1
+[2020-07-05T06:50:48.577+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Reloading plugin avatars-external
+[2020-07-05T06:50:48.616+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Unloading plugin avatars-external, version 8ddce240cc
+[2020-07-05T06:50:48.616+0000] [PluginScanner] INFO  com.google.gerrit.server.plugins.PluginLoader : Reloaded plugin avatars-external, version 8ddce240cc
+[2020-07-05T06:50:50.602+0000] [HTTP GET /accounts/self/detail (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:50:51.305+0000] [HTTP GET /accounts/1000001/avatar?s=56 (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:50:55.353+0000] [HTTP GET /accounts/1000001/avatar?s=120 (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:51:09.128+0000] [HTTP-85] INFO  com.gerritforge.gerrit.plugins.account.XAuthFilter : REST API URI /a/accounts/self allowed for user Kry9toN
+[2020-07-05T06:51:09.131+0000] [HTTP GET /a/accounts/self (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:51:29.934+0000] [HTTP GET /settings/ (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:51:49.223+0000] [WorkQueue-1] INFO  com.google.gerrit.server.plugins.CleanupHandle : Cleaned plugin plugin_account_200705_0650_5406242535803769508.jar
+[2020-07-05T06:51:49.224+0000] [WorkQueue-1] INFO  com.google.gerrit.server.plugins.CleanupHandle : Cleaned plugin plugin_admin-console_200705_0650_10948493332324101264.jar
+[2020-07-05T06:51:49.224+0000] [WorkQueue-1] INFO  com.google.gerrit.server.plugins.CleanupHandle : Cleaned plugin plugin_avatars-external_200705_0650_11539517240404320942.jar
+[2020-07-05T06:52:03.930+0000] [HTTP GET / (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:52:06.960+0000] [HTTP GET /accounts/self/detail (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:56:31.190+0000] [HTTP GET /settings/ (Kry9toN from 127.0.0.1)] WARN  com.googlesource.gerrit.plugins.avatars.external.ExternalUrlAvatarProvider : Avatar URL is not configured, cannot show avatars. Please configure plugin.avatars-external.url in etc/gerrit.config
+[2020-07-05T06:57:06.267+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T06:57:06.341+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@eea0b48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:57:06.341+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T06:57:06.342+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T06:57:06.343+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T06:57:06.357+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@6c8b6782{/,null,UNAVAILABLE}
+[2020-07-05T06:57:06.399+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T06:57:21.976+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T06:57:23.106+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T06:57:23.107+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T06:57:23.110+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T06:57:23.111+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T06:57:23.140+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T06:57:25.291+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @12916ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T06:57:25.662+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T06:57:25.714+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T06:57:27.030+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T06:57:27.529+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin account, version 06a381eb43
+[2020-07-05T06:57:27.628+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin admin-console, version 9b545189f1
+[2020-07-05T06:57:27.802+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin avatars-external, version 8ddce240cc
+[2020-07-05T06:57:27.873+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin codemirror-editor, version v3.2.2
+[2020-07-05T06:57:27.965+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin commit-message-length-validator, version v3.2.2
+[2020-07-05T06:57:28.200+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin delete-project, version v3.2.2
+[2020-07-05T06:57:28.314+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin download-commands, version v3.2.2
+[2020-07-05T06:57:28.621+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T06:57:28.752+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github, version v3.2.1
+[2020-07-05T06:57:28.799+0000] [main] INFO  com.google.gerrit.server.config.PluginConfigFactory : No /home/gerrit/gerrit/etc/gitiles.config; assuming defaults
+[2020-07-05T06:57:28.847+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin gitiles, version v3.2.2
+[2020-07-05T06:57:28.934+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin hooks, version v3.2.2
+[2020-07-05T06:57:29.020+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin plugin-manager, version v3.2.2
+[2020-07-05T06:57:29.022+0000] [plugin-manager-preloader] INFO  com.googlesource.gerrit.plugins.manager.OnStartStop : Start-up: pre-loading list of plugins from registry
+[2020-07-05T06:57:29.203+0000] [WorkQueue-1] INFO  com.googlesource.gerrit.plugins.deleteproject.fs.RepositoryCleanupTask : Cleaning up expired git repositories...
+[2020-07-05T06:57:29.228+0000] [WorkQueue-1] INFO  com.googlesource.gerrit.plugins.deleteproject.fs.RepositoryCleanupTask : Cleaning up expired git repositories... Done
+[2020-07-05T06:57:29.396+0000] [main] WARN  com.googlesource.gerrit.plugins.replication.DestinationConfigParser : Replication config does not exist or it's empty; not replicating
+[2020-07-05T06:57:29.442+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin replication, version v3.2.2
+[2020-07-05T06:57:29.797+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin reviewnotes, version v3.2.2
+[2020-07-05T06:57:29.848+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin singleusergroup, version v3.2.2
+[2020-07-05T06:57:29.975+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin webhooks, version v3.2.2
+[2020-07-05T06:57:29.986+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T06:57:30.060+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T06:57:30.066+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T06:57:30.365+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T06:57:30.365+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T06:57:30.368+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T06:57:31.072+0000] [main] INFO  com.googlesource.gerrit.plugins.gitiles.HttpModule : No /home/gerrit/gerrit/etc/gitiles.config; assuming defaults
+[2020-07-05T06:57:32.436+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@22e8f04c{/,null,AVAILABLE}
+[2020-07-05T06:57:32.474+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@6d5d1204{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:57:32.484+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @20107ms
+[2020-07-05T06:57:32.486+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T06:58:31.568+0000] [plugin-manager-preloader] INFO  com.googlesource.gerrit.plugins.manager.OnStartStop : 65 plugins successfully pre-loaded
+[2020-07-05T06:58:34.561+0000] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2020-07-05T06:58:34.684+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@6d5d1204{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:58:34.714+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2020-07-05T06:58:34.776+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthFilter : Destroy
+[2020-07-05T06:58:34.776+0000] [ShutdownCallback] INFO  com.googlesource.gerrit.plugins.github.oauth.OAuthWebFilter : Init
+[2020-07-05T06:58:34.778+0000] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@22e8f04c{/,null,UNAVAILABLE}
+[2020-07-05T06:58:34.822+0000] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2020-07-05T06:58:51.154+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2020-07-05T06:58:52.213+0000] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2020-07-05T06:58:52.214+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2020-07-05T06:58:52.217+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2020-07-05T06:58:52.218+0000] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2020-07-05T06:58:52.253+0000] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2020-07-05T06:58:54.233+0000] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @13544ms to org.eclipse.jetty.util.log.Slf4jLog
+[2020-07-05T06:58:54.568+0000] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/gerrit/gerrit/etc/jgit.config
+[2020-07-05T06:58:54.582+0000] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 1003m
+[2020-07-05T06:58:55.902+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/gerrit/gerrit/plugins
+[2020-07-05T06:58:56.440+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin account, version 06a381eb43
+[2020-07-05T06:58:56.541+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin admin-console, version 9b545189f1
+[2020-07-05T06:58:56.660+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin avatars-external, version 8ddce240cc
+[2020-07-05T06:58:56.716+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin codemirror-editor, version v3.2.2
+[2020-07-05T06:58:56.789+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin commit-message-length-validator, version v3.2.2
+[2020-07-05T06:58:56.984+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin delete-project, version v3.2.2
+[2020-07-05T06:58:57.081+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin download-commands, version v3.2.2
+[2020-07-05T06:58:57.356+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github-plugin, version v3.2.1
+[2020-07-05T06:58:57.481+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin github, version v3.2.1
+[2020-07-05T06:58:57.527+0000] [main] INFO  com.google.gerrit.server.config.PluginConfigFactory : No /home/gerrit/gerrit/etc/gitiles.config; assuming defaults
+[2020-07-05T06:58:57.579+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin gitiles, version v3.2.2
+[2020-07-05T06:58:57.663+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin hooks, version v3.2.2
+[2020-07-05T06:58:57.755+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin plugin-manager, version v3.2.2
+[2020-07-05T06:58:57.755+0000] [plugin-manager-preloader] INFO  com.googlesource.gerrit.plugins.manager.OnStartStop : Start-up: pre-loading list of plugins from registry
+[2020-07-05T06:58:57.984+0000] [WorkQueue-1] INFO  com.googlesource.gerrit.plugins.deleteproject.fs.RepositoryCleanupTask : Cleaning up expired git repositories...
+[2020-07-05T06:58:58.028+0000] [WorkQueue-1] INFO  com.googlesource.gerrit.plugins.deleteproject.fs.RepositoryCleanupTask : Cleaning up expired git repositories... Done
+[2020-07-05T06:58:58.058+0000] [main] WARN  com.googlesource.gerrit.plugins.replication.DestinationConfigParser : Replication config does not exist or it's empty; not replicating
+[2020-07-05T06:58:58.120+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin replication, version v3.2.2
+[2020-07-05T06:58:58.201+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin reviewnotes, version v3.2.2
+[2020-07-05T06:58:58.241+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin singleusergroup, version v3.2.2
+[2020-07-05T06:58:58.546+0000] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loaded plugin webhooks, version v3.2.2
+[2020-07-05T06:58:58.560+0000] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2020-07-05T06:58:58.616+0000] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.4.0 on *:29418
+[2020-07-05T06:58:58.623+0000] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.7+10-post-Ubuntu-2ubuntu218.04
+[2020-07-05T06:58:58.722+0000] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2020-07-05T06:58:58.722+0000] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2020-07-05T06:58:58.730+0000] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2020-07-05T06:58:59.310+0000] [main] INFO  com.googlesource.gerrit.plugins.gitiles.HttpModule : No /home/gerrit/gerrit/etc/gitiles.config; assuming defaults
+[2020-07-05T06:59:00.832+0000] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@22e8f04c{/,null,AVAILABLE}
+[2020-07-05T06:59:00.868+0000] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@6d5d1204{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2020-07-05T06:59:00.870+0000] [main] INFO  org.eclipse.jetty.server.Server : Started @20187ms
+[2020-07-05T06:59:00.877+0000] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.2.2 ready
+[2020-07-05T06:59:57.643+0000] [plugin-manager-preloader] INFO  com.googlesource.gerrit.plugins.manager.OnStartStop : 65 plugins successfully pre-loaded
+[2020-07-05T07:04:06.181+0000] [HTTP-101] INFO  com.gerritforge.gerrit.plugins.account.XAuthFilter : REST API URI /a/accounts/self allowed for user Kry9toN

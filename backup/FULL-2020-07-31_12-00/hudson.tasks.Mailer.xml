@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.32">
+  <defaultSuffix></defaultSuffix>
+  <authentication>
+    <username>dhimasbagusprayoga@gmail.com</username>
+    <password>{AQAAABAAAAAg2tkcFwXebb4NPuEeTu/bLc7vZx6W21yoYgWNHGgsgYL3q9dNM4b4FyLBS6KUPUv1}</password>
+  </authentication>
+  <smtpHost>smtp-relay.sendinblue.com</smtpHost>
+  <useSsl>false</useSsl>
+  <useTls>false</useTls>
+  <smtpPort>587</smtpPort>
+  <charset>UTF-8</charset>
+</hudson.tasks.Mailer_-DescriptorImpl>
